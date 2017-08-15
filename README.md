@@ -1,21 +1,11 @@
-AWS EC2 Server Implementation & Managment
-    -Implemented a Ubuntu server on AWS EC2
-      -Ran into errors when attempting to install Oracle 11g database
-    -Implemented a Windowss server on AWS EC2
-      -Successfully installed & administered Oracle 11g database & Windows database
-     
-    ORACLE DB ADMINISTRATION
-    -Created a new user
-      -gave permissions to create a table
-      -received an error when I attempted to create a table under this user
-    -Troubleshooting
-      -created a new user
-      -granted more concise permissions
-      -still received the same error
-      -entered this command under system
-        (ALTER USER <username> QUOTA UNLIMITED ON <tablespace>)
-      -this solved the problem
-    -Created data spread sheet
-    -Imported data from the excel spread sheet to an SQL table
-    -Created a view
-      -Created criteria within a View 
+Implementing Oracle Database Server on AWS
+	Design a plan
+		Decide on the physical location of the EC2 server.  Having a server in close proximity of end users will prevent latency issues.
+			AWS offers the following zones:  US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), 
+			Canada (Central), EU (Ireland), EU (Frankfurt), EU (London), Asia Pacific (Singapore), Asia Pacific (Sydney), 
+			Asia Pacific (Seoul), Asia Pacific (Tokyo), Asia Pacific (Mumbai), South America (Sao Paulo).
+		Contingent with the scope of the project, AWS offers low to high-end servers available via the launch instance wizard.  For my
+		dev project I selected a general purpose server on a windows platform.  
+	Launch the instance wizard
+	Ideally storage options should be decidined when planning.  However, since I found out 30 gb would not be enough, I provisioned more
+	storage via Volumes on the EC2 dashboard.
