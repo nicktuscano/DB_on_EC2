@@ -12,10 +12,11 @@ Asia Pacific (Mumbai), South America (Sao Paulo)*.
 -Ideally storage options should be decidined when planning.  However, since I found out 30 gb would not be enough, I provisioned 
  more storage via Volumes on the EC2 dashboard.
 (D)FIREWALL
- -Its good to attach an elastic IP.  This will prevent you from having to enter a different IP to connect to your server every time. You 
- can access elastic IP's via the EC2 Dashboard
- -Security groups allows you to alter and administer who can connect, and how they may do so.  Setting up specific IP addresses prevents    
- your server being open to whomever wants to connect.
+ -A static IP is required for firewall configuration. Use the elastic IP option on the AWS managment console to assign a static/permenate 
+ IP (AWS console).  This will prevent you from having to enter a different IP to connect to your server every 
+ time.   
+ -You will need to setup the ip, port, and protocol you plan on using to connect to your server through security groups before being able 
+ to do so. 
  
  Implementing Oracle 11g Database Server
  -Connect to your server via SSH or RDP, download the correct version of the oracle database that matches your platform.
