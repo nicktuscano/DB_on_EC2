@@ -1,4 +1,5 @@
 Implementing a Database Server on AWS EC2
+
 (A)DESIGN AN ARCHITECTURE PLAN
 -Decide on the physical host location (zone) of the EC2 server.  Having a server in close proximity of end users will reduce network latency 
  issues.
@@ -6,10 +7,13 @@ Implementing a Database Server on AWS EC2
 -Contingent on the scope of the project, AWS offers low to high-end servers available via the launch instance wizard. For new AWS 
 customers, a free tier is offered; however modest fees are still assessed for usage above the free tier limits. 
 -For my dev project I selected a general purpose EC2 server on a windows platform.  
+
 (B)LAUNCH THE INSTANCE WIZARD
+
 (C)STORAGE OPTIONS
 -Ideally storage options should be decided during planning.  However, since I found out the starter 30 gb would not be enough, I 
 provisioned additional storage via Volumes on the EC2 dashboard after the server was already in production.
+
 (D)FIREWALL
  -A static IP is required for firewall configuration. Use the elastic IP option on the AWS managment console to assign a static/permanent 
  IP.  This will prevent you from having to enter a different IP to connect to your server every time.  That is if you let the IP be 
