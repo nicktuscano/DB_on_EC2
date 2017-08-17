@@ -39,6 +39,7 @@ provisioned additional storage via Volumes on the EC2 dashboard after the server
  
  (*) For dev purposes Oracle offers Oracle database Server Express and SQL Developer for free. Microsoft offers SQL Server Express 
  and SQL Server Managment Studio for client admin which are also both free.
+ 
  Some Images
  
 AWS EC2 Instance: ![](https://github.com/nicktuscano/DB_on_EC2/blob/master/1a_Instance.png)
