@@ -45,4 +45,7 @@ provisioned additional storage via Volumes on the EC2 dashboard after the server
 AWS EC2 Instance: ![](https://github.com/nicktuscano/DB_on_EC2/blob/master/1a_Instance.png)
 AWS EC2 Elastic IP: ![](https://github.com/nicktuscano/DB_on_EC2/blob/master/1b_Instance%2BElasticIP.png)
 AWS EC2 Security Groups: ![](https://github.com/nicktuscano/DB_on_EC2/blob/master/1c_SecurityGroups.png)
+Oracle SQL Server with SQL Developer: ![](https://github.com/nicktuscano/DB_on_EC2/blob/master/2_ORACLESQL_RDP_WINEC2.png)
+MSSQL Server with SQL Server Managment Studio: ![](https://github.com/nicktuscano/DB_on_EC2/blob/master/3_MSSQL_RDP_WINEC2.png)
+
 
