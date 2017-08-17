@@ -1,4 +1,4 @@
-Implementing Oracle Database Server on AWS
+Implementing a Database Server on AWS
 (A)DESIGN A ARCHITECTURE PLAN
 -Decide on the physical host location (zone) of the EC2 server.  Having a server in close proximity of end users will reduce network latency 
  issues.
