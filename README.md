@@ -16,7 +16,7 @@ Asia Pacific (Mumbai), South America (Sao Paulo)*.
  IP.  This will prevent you from having to enter a different IP to connect to your server every time.  That is if you let the IP be 
  dynamically assigned.   
  -You will need to setup the ip, port, and protocol you plan on using to connect to your server through security groups before being able 
- to do so. 
+ to do so (remote server administration). 
  
  Implementing Oracle 11g Database Server
  -Connect to your EC2 server via SSH (Linux) or RDP (Windows), download the correct version of the oracle database that matches your 
